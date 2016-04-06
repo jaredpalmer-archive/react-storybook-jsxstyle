@@ -34,7 +34,7 @@ class Button extends React.Component {
 
 
   render() {
-    const { size, isLoading, disabled, children, onClick, ...other } = this.props
+    const { text, isLoading, disabled, onClick, ...other } = this.props
     let bg = this.state.hovered ? s.primaryColor : s.secondaryColor
 
     return (
@@ -62,7 +62,7 @@ class Button extends React.Component {
           alignItems="center"
           justifyContent="center"
           borderRadius={3}>
-          {isLoading ? 'Loading...' : children}
+          {isLoading ? 'Loading...' : text}
         </Flex>
       </div>
     )

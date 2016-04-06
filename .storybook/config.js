@@ -1,9 +1,7 @@
-import { configure } from '@kadira/storybook';
-import 'todomvc-app-css/index.css'
-
+import { configure } from '@kadira/storybook'
 
 function loadStories() {
-  require('../components/stories/');
+  require('../components/stories/')
 }
 
 configure(loadStories, module);

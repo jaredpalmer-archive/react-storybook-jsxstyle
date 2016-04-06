@@ -15,7 +15,8 @@ class App extends Component {
         margin={20}>
         <Button
           bg="#0070ff"
-          onClick={() =>actions.click('Clicked')}>{text}</Button>
+          onClick={() => actions.click('Clicked')}
+          text={text}/>
       </Flex>
     )
   }
