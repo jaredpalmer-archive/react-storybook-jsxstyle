@@ -1,8 +1,8 @@
 import { combineReducers } from 'redux'
-import todos from './todos'
+import clicked from './clicked'
 
 const rootReducer = combineReducers({
-  todos
+  clicked
 })
 
 export default rootReducer
