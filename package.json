@@ -21,7 +21,7 @@
     "babel-polyfill": "^6.13.0",
     "babel-preset-stage-0": "^6.5.0",
     "jsxstyle": "github:petehunt/jsxstyle",
-    "react": "^15.3.0",
+    "react": "^15.4.0",
     "react-dom": "^15.3.0",
     "react-redux": "^4.2.1",
     "redux": "^3.2.1",
