@@ -23,7 +23,7 @@
     "jsxstyle": "github:petehunt/jsxstyle",
     "react": "^15.3.0",
     "react-dom": "^15.3.0",
-    "react-redux": "^4.2.1",
+    "react-redux": "^5.0.2",
     "redux": "^3.2.1",
     "stack-source-map": "^1.0.4"
   },
